@@ -1,4 +1,5 @@
-const socket = io.connect('http://localhost:3001'); // eslint-disable-line no-undef
+const socket = io(); // eslint-disable-line no-undef
+//const socket = io.connect('http://localhost:3001'); // eslint-disable-line no-undef
 
 // Socket `notification_received` event handler.
 socket.on('notification_received', notificationData => {

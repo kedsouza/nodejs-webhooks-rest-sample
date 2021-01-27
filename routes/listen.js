@@ -2,7 +2,8 @@ import express from 'express';
 import http from 'http';
 import escape from 'escape-html';
 
-import { ioServer } from '../helpers/socketHelper';
+//import { ioServer } from '../helpers/socketHelper';
+import { ioServer } from '../index'
 import { SubscriptionManagementService } from '../helpers/requestHelper';
 import { getSubscription } from '../helpers/dbHelper';
 import { subscriptionConfiguration, certificateConfiguration, msalConfiguration } from '../constants';

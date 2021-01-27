@@ -1,7 +1,8 @@
 import fs from 'fs';
 import sql from 'sqlite3';
 
-const dbFile = './helpers/database.sqlite3';
+//const dbFile = './helpers/database.sqlite3';
+const dbFile = '/tmp/database.sqlite3'
 const sqlite3 = sql.verbose();
 
 /**
